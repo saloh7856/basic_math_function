@@ -9,8 +9,8 @@
 */
 import 'dart:math';
 double func(int x,int y){
-    double m=x*sin((y*pi)/180);
-return m;
+    double  m=x*sin((y*pi)/180);
+    return m;
 }
 void main(){
     print(func(8,27));
