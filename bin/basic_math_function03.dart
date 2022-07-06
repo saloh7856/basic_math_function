@@ -6,4 +6,12 @@
   Returns:
       x (int): the square of x
 */
-void main() {}
+import 'dart:math';
+int func(int n){
+    int m;
+  m=n*n;
+return m;
+}
+void main(){
+    print(func(5));
+}
