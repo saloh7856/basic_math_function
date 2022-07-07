@@ -12,6 +12,7 @@ int func(int x,int y){
     double  m=x*(sin(y));
     int s = m.round();
     return s;
+    
 }
 void main(){
     print(func(8,27));
