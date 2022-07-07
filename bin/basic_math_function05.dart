@@ -15,6 +15,6 @@ double func(int x,int y){
     return s;
 }
 void main(){
-    print(func(10,4.0));
+    print(func(4,pi/2));
 }
 
