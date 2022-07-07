@@ -6,8 +6,14 @@ Create function named func with a argument
   Returns:
       result (int): return lenght
 */
-
-void main() {}
-func(a) {
-  return a.toString().length;
+int func(int a){
+    String s;
+    int n;
+   s=a.toString();
+   n=s.length;
+    return n;
 }
+void main(){
+    print(func(123000));
+}
+
